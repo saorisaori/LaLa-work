@@ -8,7 +8,7 @@ public class Ex5_1 {
 
 	public static void introduceOneself() {
 		String name = "Minato";
-		int age =22;
+		int age = 22;
 		double height = 169.9;
 		char zodiac = '辰';
 		System.out.println("私の名前は" + name + "です");
