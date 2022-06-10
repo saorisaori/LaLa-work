@@ -5,6 +5,10 @@ public class Hero {
 	public int hp;
 	public static int money;
 	
+	public Hero(String name) {
+		this.name = name;
+	}
+	
 	public static void setRandomMoney() {
 		Hero.money = (int) (Math.random() * 1000);
 	}
