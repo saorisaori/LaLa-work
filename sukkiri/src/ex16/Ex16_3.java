@@ -9,11 +9,11 @@ public class Ex16_3 {
 
 	public static void main(String[] args) {
 		Map<Hero, Integer>heroes = new HashMap<Hero, Integer>();
-		heroes.put(h1, 3);
-		heroes.put(h2, 7);
+		//heroes.put(h1, 3);
+		//heroes.put(h2, 7);
 		for (Hero hey : heroes.keySet()) {
-			int value = heroes.get(key);
-			System.out.println(key.getName() + "が倒した敵=" + value);
+			//int value = heroes.get(key);
+			//System.out.println(key.getName() + "が倒した敵=" + value);
 		}
 	}
 

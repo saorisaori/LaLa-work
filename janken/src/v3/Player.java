@@ -43,7 +43,7 @@ public abstract class Player {
 		return nextHand;
 	}
 
-	public void setNextHand(CleverNextHand cleverNextHand) {
-		this.nextHand = cleverNextHand;
-	}
+	//public void setNextHand(CleverNextHand cleverNextHand) {
+	//	this.nextHand = cleverNextHand;
+	//}
 }
